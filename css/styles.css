@@ -14,6 +14,7 @@ html {
   .nav {
     display: flex;
     width: 100%;
+    overflow-x: hidden;
     height: 75px;
     justify-content: space-between;
     align-items: center;
@@ -22,10 +23,9 @@ html {
     position: fixed;
     top: 0;
     margin-left: 0;
-    overflow-x: hidden;
     padding: 0;
     margin: 0;
-    /* border-bottom: 1px solid rgba(128, 128, 128, 0.361); */
+  
   }
   .google_image {
     display: flex;
@@ -119,8 +119,8 @@ html {
     margin-left: 20px;
   }
   .sign-info {
-    margin-top: 34px;
-    font-size: 22px;
+    margin-top: 35px;
+    font-size: 21.7px;
     margin-left: 22px;
     line-height:1.625 ;
   }
@@ -129,8 +129,9 @@ html {
   }
   .six{
     width: 50%;
-    margin-top: 8%;
+    margin-top: 20px;
   }
+
   .hp{
     width: 75%;
   }
@@ -160,6 +161,7 @@ html {
     display: flex;
     border: 2px solid gray ;
     padding: 30px;
+    
   
 
   } 
@@ -198,18 +200,24 @@ html {
   }
   .pop{
     background-color: rgba(55, 55, 229, 0.845);
-    margin-left: 20%;
+    margin-left: 36px;
     margin-top: 13px;
     
   }
   .pen{
     background-color: orange;
-    margin-left: 20px;
+    margin-left: 25px;
     margin-top: 13px;
     /* margin-bottom: 90px; */
   }
+  .men {
+    margin-left: 30px;
+    margin-top: 13px;
+
+  }
   .me {
     top: 0;
+    margin-left: 23px;
   }
   .ten{
     text-align: center;
@@ -223,15 +231,9 @@ html {
   .pen-info {
     margin-left: 22px;
     line-height: 1.625;
-    margin-top: 26px;
-    
-    
-
-    
-
   }
   .pens{
-    font-size: 60px;
+    font-size: 50px;
     display: block;
     color: #202124;
   }
@@ -240,12 +242,14 @@ html {
     justify-content: space-around;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    color: grey;
     
   }
+  .option-one:hover{
+    color: #1a73e8;
+  }
   .help-info {
-    margin-top: 30px;
-    margin: 22px 0 0px 20%;
+    margin-left: 35px;
     line-height: 1.625;
     font-size: 23.px;
     
@@ -262,7 +266,7 @@ html {
     line-height: 20px;
   }
   .us {
-    margin-left: 20%;
+    margin-left: 35px;
   }
   *{
     margin: 0;
@@ -311,6 +315,48 @@ button:focus{
 .sunny {
   font-size: 18px;
   line-height: 1.625rem;
-  margin: 0 15% 0 15%;
+  margin: 25px 15% 0 15%;
   letter-spacing: 2.4px;
+  line-height: 1.625;
 }
+.autofill {
+  display: flex;
+  font-size: 15px;
+  margin-left: 81px;
+  line-height: 1.625;
+}
+.mtn {
+  width: 45%;
+  font-size: 23px;
+  margin-top: 8%;
+}
+.phone {
+    width: 60%;
+    margin-bottom: 90px;
+    margin-left: 3%;
+}
+.keep{
+  font-size: 45px;
+  margin-left: 25%;
+  font-family: "Google Sans", Roboto, Arial, Helvetica, sans-serif;
+  margin-top: 0;
+  color: #202124;
+
+}
+.keeps {
+  margin-left: 13%;
+  font-family: "Google Sans", Roboto, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-bottom: 40px;
+  margin-top: 65px;
+
+}
+.keep-info {
+  margin-left: 15%;
+  font-family: "Google Sans", Roboto, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  margin-bottom: 40px;
+  margin-top: 6px;
+  letter-spacing: 1px;
+}
+
