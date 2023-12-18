@@ -5,6 +5,7 @@ html {
     box-sizing: border-box;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
   }
   header{
     height: 100%;
@@ -14,13 +15,13 @@ html {
   .nav {
     display: flex;
     width: 100%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     height: 75px;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 0 10px;
     background: #fff;
-    position: fixed;
+    position: sticky;
     top: 0;
     margin-left: 0;
     padding: 0;
@@ -358,5 +359,14 @@ button:focus{
   margin-bottom: 40px;
   margin-top: 6px;
   letter-spacing: 1px;
+}
+.footer-info {
+  display: flex;
+}
+
+.footer-info a {
+  justify-content: space-between;
+  font-size: 20px;
+  text-decoration: none;
 }
 
