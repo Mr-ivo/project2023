@@ -361,12 +361,48 @@ button:focus{
   letter-spacing: 1px;
 }
 .footer-info {
-  display: flex;
+  margin-top: 15%;
+  margin-bottom: 50px;
+  padding: 40px 32px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1.625;
+  
 }
 
 .footer-info a {
   justify-content: space-between;
-  font-size: 20px;
   text-decoration: none;
+  color: gray;
+  margin-bottom: -80px;
+}
+.footer-info a:hover {
+  color: #202124;
+}
+.logo {
+  font-size: 35px;
+  margin-left: 20px;
+}
+.logo_2 {
+   font-size: 17px;
+   margin-left: 4%;
+}
+.logo_3 {
+   font-size: 17px;
+   margin-left: 15px;
+}
+.logo_4 {
+   font-size: 17px;
+   margin-left: 15px;
+}
+.logo_5 {
+   font-size: 17px;
+   margin-left: 15px;
+   
+}
+.language {
+  margin-left: 100px;
+}
+.logo_6 {
+  margin-left: 40%;
 }
 
