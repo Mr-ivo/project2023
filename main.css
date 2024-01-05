@@ -1,0 +1,630 @@
+
+/* 
+=====================================================================================
+ACCOUNT PAGE START
+=====================================================================================
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+main.main-account{
+    /* background: rgb(203, 246, 94); */
+    width: 100%;
+    /* height: 100vh; */
+    /* position: absolute; */
+}
+/* 
+=======================================================================================================
+SECTION HEADER-BOX STYLE START
+========================================================================================================
+*/
+
+section.header-box{
+    background: #ffffff;
+    width: 100%;
+    height: 6.8vh;
+    position: fixed;
+    /* box-shadow: 0 0 5px 0 #000000; */
+    padding: 8px;
+    /* display: inline-block; */
+}
+div.header-container{
+    /* background: #ffffff; */
+    width: 97.7%;
+    height: 49px;
+    margin-left: 11px;
+}
+
+/*--- //STYLING LEFT BOX START// ---*/
+
+div.left-box{
+    /* background: yellow; */
+    width: 159px;
+    height: 100%;
+    /* display: inline-block; */
+    /* justify-content: space-between; */
+}
+
+div.boxs{
+    /* background: red; */
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+div.boxs:focus{
+    text-decoration: underline;
+}
+img.google-logo{
+    display: inline-block;
+    margin-top: 10px;
+    width: 75px;
+    height: auto;
+    padding-top: 3px;
+}
+p.text-after-google-logo{
+    font-family: "Product Sans", Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 24px;
+    padding-top: 13px;
+    padding-left: px;
+    color: #5f6368;
+    display: inline-block;
+}
+
+/*--- //STYLING LEFT BOX END// ---*/
+
+
+
+
+ /*--- //STYLING CENTER BOX START// ---*/
+
+div.center-box{
+    /* background: rgb(119, 119, 12); */
+    width: 728px;
+    height: 100%;
+    /* display: inline; */
+    margin-left: 34.5px;
+}
+
+form[method="post"]{
+    border-radius: 8px;
+    background: #F1F3F4;
+    border: none;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+form[method="post"]:focus{
+    background: #ffffff;
+    box-shadow: 0 0 2px 0 #000000;
+}
+span.icon-png{
+    width: inherit;
+    height: inherit;
+    justify-content: space-between;
+    display: flex;
+    cursor: pointer;
+    
+}
+span.icon-png:focus{
+    background: #ffffff;
+    box-shadow: 0 0 2px 0 #000000;
+}
+div.center-box img.material-symbols-outlined{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+input[type="search"]{
+    padding-left: 10px;
+    margin-right: 35px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    background: transparent;
+    font-family: "Google Sans Text", "Google Sans", Roboto, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+input[type="search"]:focus{
+    outline: none;
+    background: #ffffff;
+    /* box-shadow: 0 0 2px 0 #000000; */
+}
+input[type="search"]::placeholder{
+    font-family: "Google Sans Text", "Google Sans", Roboto, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* color: #444746; */
+}
+div.boxing{
+    display: inline-block;
+    float: left;
+}
+
+/*--- //STYLING CENTER BOX END// ---*/
+
+
+
+
+/*--- //STYLING RIGHT BOX START// ---*/
+
+div.right-box{
+    /* background: rgba(82, 82, 17, 0.462); */
+    width: 131px;
+    height: 100%;
+    /* display: inline; */
+    /* float: right; */
+    margin-left: 431px;
+}
+nav.header-nav{
+    width: 100%;
+    height: 100%;
+}
+div.right-nav{
+    text-align: center;
+    width: 33.3%;
+    height: 85%;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 3px;
+    float: left;
+}
+div.right-nav:hover{
+    background: #F1F3F4
+}
+nav.header-nav span.material-symbols-outlined{
+    color: #5f6368;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+img.image-account{
+    width: 35px;
+    height: auto;
+    border-radius: 50%;
+    padding-top: 5px;
+    display: inline-block;
+}
+
+/*--- //STYLING RIGHT BOX END// ---*/
+
+
+
+/* 
+=======================================================================================================
+SECTION HEADER-BOX STYLE END
+========================================================================================================
+*/
+
+
+/* 
+=======================================================================================================
+SECTION ASIDE-BOX STYLE START
+========================================================================================================
+*/
+
+/* FIX HEADER LEFT ASIDE STYLE START  */
+
+section.aside-box{
+    /* background: rgb(134, 123, 123); */
+    width: 281px;
+    height: 100vh;
+    /* float: left; */
+    position: fixed;
+    /* display: inline-block; */
+}
+div.header-aside{
+    /* background: yellowgreen; */
+    height: 39.2vh;
+    width: 100%;
+    margin-top: 83px;
+    border-bottom: 1px solid #4447462f;
+    display: inline-block;
+}
+div.inside-aside{
+    /* background: brown; */
+    width: 100%;
+    height: 6.3vh;
+    /* margin-bottom: 0.5px; */
+    /* border-top-right-radius: 25%; */
+    /* border-bottom-right-radius: 25%; */
+}
+div.inside-aside:focus{
+    background: #0b57d0;
+}
+div.images{
+    /* background: purple; */
+    height: 100%;
+    width: 13%;
+    margin-left: 25px;
+    float: left;
+    display: inline-block;
+}
+
+span.material-symbols-outlined {
+  color: #000000;
+  font-size: 25px;
+  margin-top: 10px;
+}
+div.text{
+    /* background: pink; */
+    height: 100%;
+    width: 78%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    float: left;
+    display: inline-block;
+}
+div.images>img.img-icone{
+    height: auto;
+    width: 70%;
+    margin-top: 10px;
+    /* margin-left: 5px; */
+}
+div.text>h2.text-after-icone{
+    font-family: "Google Sans Text", "Google Sans", Roboto, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1f1f1f;
+    margin-top: 13px;
+    padding-left: 3px;
+}
+
+/* FIX HEADER LEFT ASIDE STYLE END  */
+
+
+
+/* FIX FOOTER LEFT ASIDE STYLE END  */
+
+div.footer-aside{
+    /* background: orange; */
+    width: 80%;
+    height: 15vh;
+    margin-top: 30vh;
+    margin-left: 29px;
+}
+nav.aside-footer-nav{
+    margin-bottom: 8px;
+}
+a.angle-footer{
+    text-decoration: none;
+    color: #444746;
+    font-family: "Google Sans Text", "Google Sans", Roboto, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 5px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+
+/* FIX FOOTER LEFT ASIDE STYLE END  */
+
+
+/* 
+=======================================================================================================
+SECTION ASIDE-BOX STYLE END
+========================================================================================================
+*/
+
+/* 
+=======================================================================================================
+SECTION MAIN-BOX STYLE START
+========================================================================================================
+*/
+
+section.main-box{
+    /* background: blueviolet; */
+    display: inline-block;
+    width: 77.7%;
+    /* height: 150vh; */
+    float: right;
+    /* clear: both; */
+}
+div.main-container{
+    /* background: rgb(3, 191, 3); */
+    width: 71.2%;
+    /* height: 150vh; */
+}
+
+div.introduction{
+    text-align: center;
+    /* padding: 0 5px 0 5px; */
+}
+img.logo{
+    border-radius: 50%;
+    width: 96px;
+    height: auto;
+    margin-top: 89px;
+}
+h1.title{
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 36px;
+    color: #1f1f1f;
+    margin-top: 13px;
+}
+p.textheader{
+    font-family: "Google Sans Text", "Google Sans", Roboto, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16.5px;
+    line-height: 24px;
+    color: #444746;
+    margin-top: 20px;
+}
+a.angletags{
+    font-family: "Google Sans Text", "Google Sans", Roboto, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0b57d0;
+    text-decoration: none;
+}
+div.inline-box{
+
+}
+div.inline-box1,
+div.inline-box2{
+    margin-top: 25px;
+    display: inline-block;
+    width: 48.2%;
+    height: 33.7vh;
+    /* background: rgb(237, 237, 114); */
+    border: 1px solid #8888884d;
+    border-radius: 8px;
+}
+div.inline-box2{
+    margin-left: 23px;
+}
+div.upbox{
+    /* background: brown; */
+    width: 100%;
+    height: 77%;
+    border-bottom: 1px solid #8888884d;
+    display: inline-block;
+}
+div.downbox{
+    /* background: purple; */
+    width: 100%;
+    height: 23%;
+    display: inline-block;
+}
+div.downbox:hover{
+    background: #f5efef4d;
+}
+nav.box-size{
+    /* background: magenta; */
+    width: 250px;
+    height: 144px;
+    margin-left: 25px;
+    margin-top: 20px;
+    display: inline-block;
+}
+img.logos{
+    /* border-radius: 50%; */
+    width: 96px;
+    height: auto;
+    float: right;
+    margin-top: 49px;
+    margin-right: 22px;
+}
+h1.title1{
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 28px;
+    color: #1f1f1f;
+    /* margin-top: 13px; */
+    margin-bottom: 10px;
+}
+p.textheader1{
+    font-family: "Google Sans Text", "Google Sans", Roboto, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #444746;
+    /* margin-top: 20px; */
+}
+strong.angletag{
+    /* background: magenta; */
+    width: 250px;
+    /* height: 44px; */
+    margin-left: 25px;
+    margin-top: 17px;
+    display: inline-block;
+    color: #0b57d0;
+    font-family: "Google Sans Text", "Google Sans", Roboto, Arial, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+div.block-box{
+    margin-top: 25px;
+    display: inline-block;
+    width: 100%;
+    height: 28.5vh;
+    /* background: rgb(237, 237, 114); */
+    border: 1px solid #8888884d;
+    border-radius: 8px;
+    /* margin-bottom: 15vh; */
+}
+div.upbox1{
+    /* background: brown; */
+    width: 100%;
+    height: 75%;
+    border-bottom: 1px solid #8888884d;
+    display: inline-block;
+}
+nav.box-size1{
+    /* background: magenta; */
+    width: 63.5vh;
+    height: 130px;
+    margin-left: 25px;
+    margin-top: 20px;
+    display: inline-block;
+}
+img.logos1{
+    /* border-radius: 50%; */
+    width: 316px;
+    height: 112px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 22px;
+}
+h2.title2{
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 28px;
+    color: #1f1f1f;
+    /* margin-top: 13px; */
+    margin-bottom: 10px;
+}
+p.textheader2{
+    font-family: "Google Sans Text", "Google Sans", Roboto, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #444746;
+    /* margin-top: 20px; */
+}
+div.downbox1{
+    /* background: purple; */
+    width: 100%;
+    height: 25%;
+    display: inline-block;
+}
+div.downbox1:hover{
+    background: #f5efef4d;
+}
+strong.angletag1{
+    /* background: magenta; */
+    width: 250px;
+    /* height: 44px; */
+    margin-left: 25px;
+    margin-top: 16px;
+    display: inline-block;
+    color: #0b57d0;
+    font-family: "Google Sans Text", "Google Sans", Roboto, Arial, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+div.block-box1{
+    margin-top: 25px;
+    display: inline-block;
+    width: 100%;
+    height: 33.1vh;
+    /* background: rgb(237, 237, 114); */
+    border: 1px solid #8888884d;
+    border-radius: 8px;
+    /* margin-bottom: 50vh; */
+}
+div.last-title,
+div.list-style{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+ul.grouplist-container{
+    list-style-type: none;
+    font-family: "Google Sans Text", "Google Sans", Roboto, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444746;
+}
+li.list{
+    /* background: goldenrod; */
+    width: 100%;
+    padding: 15px 0 15px 0;
+    margin-bottom: 1px;
+}
+li.style-list{
+    border-top: 1px solid #8888884d;
+}
+div.footer-p{
+    /* background: bisque; */
+    width: 100%;
+    height: 152px;
+}
+div.footerp-container{
+    /* background: rebeccapurple; */
+    width: 95%;
+    /* height: 100px; */
+    display: inline-block;
+    margin-top: 46px;
+    margin-left: 20px;
+    /* margin-right: 50px; */
+}
+div.footer-p p{
+    font-family: "Google Sans Text", "Google Sans", Roboto, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #444746;
+    text-decoration: none;
+    display: inline-block;
+}
+a:last-child{
+    font-family: "Google Sans Text", "Google Sans", Roboto, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 26px;
+    color: #0b57d0;
+    text-decoration: none;
+}
+img.img-lastbox{
+    float: right;
+    margin-top: 5px;
+    width: 50px;
+    height: auto;
+    display: inline-block;
+}
+
+
+/* footer{clear: both;} */
+
+/* 
+=======================================================================================================
+SECTION MAIN-BOX STYLE END
+========================================================================================================
+*/
+
+/* 
+=====================================================================================
+ACCOUNT PAGE END
+=====================================================================================
+*/
+
